@@ -3,6 +3,7 @@
           package="com.wayapp.billingpilot.in_appbillingpilot">
 
     <uses-permission android:name="com.android.vending.BILLING"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
             android:allowBackup="true"

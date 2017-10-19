@@ -700,6 +700,9 @@ public class IabHelper {
                 catch (IabException ex) {
                     result = ex.getResult();
                 }
+                catch(IllegalStateException ex){ //ADDED THIS CATCH
+                    result = new IabResult(BILLING_RESPONSE_RESULT_ERROR, "Helper is not setup.");
+                }
 
                 flagEndAsync();
 
