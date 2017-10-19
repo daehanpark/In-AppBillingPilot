@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">In-App Billing Pilot</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="buy_100">Buy 100</string>
+    <string name="buy_500">Buy 500</string>
+    <string name="credits">Credits</string>
+</resources>
